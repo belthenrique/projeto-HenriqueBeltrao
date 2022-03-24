@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font: Arial;
+}
+h1{
+    color:dodgerblue; 
+    font-family: monospace;
+
+}
+
+h3{
+    color:indigo; 
+    font-family: monospace;
+
+}
+
+span{
+    color:dimgray; /** usar tags para formatação irá alterar todas as tags de mesmo nome*/
+    font-family: Arial; 
+    font-size: 18px;
+
+}
+
+.container{
+    width: 80%;
+
+}
+
+.title{
+    color: red;
+    margin: 5px;
+    font-family: Arial;    
+
+}
+
+.destaque{
+   background-color: yellow; /** recomendado para formatação, é possível escolher o que receberá
+   as alterações dos comandos da classe*/
+}
+
+#destaque_especial{
+    background-color: aquamarine; /** usar id para formatações mais específicas*/
+}
