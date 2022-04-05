@@ -1,24 +1,132 @@
-.header{
-    background-color: #000407;
-    color: #32b9cd;
-  
-}
-
-.header .container{/** esse estilo só será aplicado caso o container esteja dentro de um header*/
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.container{
-    margin: 80%;
-  
-}
-
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    width: 400px;
+body{
+    margin: 0PX;
+    padding: 0px;
+    font-family: "Exo 2";
     
-}
+  }
+  
+.header{
+      background-color: black;
+      color: #3289cd;
+
+  }
+  
+.header .container{
+     display: flex;
+     justify-content: space-between;
+     margin: auto;
+     width: 80%;
+
+  }
+  
+.navbar{
+      display: flex;
+      width: 400px;
+      list-style: none;
+      justify-content: space-between;
+      align-items: center;
+      
+  }
+  
+.navbar a{
+     text-decoration: none;
+     color: #e3b062;
+     border-bottom: 2px  #3289cd;
+     font-size: 20px;
+
+  }
+  
+.banner{
+    background-image: url("bg-jelly-fish-para_outras_pags.png");
+    background-size: cover;
+  
+  }
+.agora{
+    font-weight: bold;
+    
+  }
+
+
+.banner .container{
+    height: 550px;
+    display:flex;
+    color: #ffff;
+    align-items: center;
+
+  }
+  
+.banner p{
+    font-size: 30px;
+    width: 280px;
+    margin-left: 20%;
+  
+  }
+  
+.flutter {
+    background-color: #3289cd;
+    color: #ffff;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+.card{
+    background-color: #e5e5e5;
+    color: #e6005a;
+    height: 350px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+.card .h2{
+    margin: 0;
+  
+  }
+  
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    width: 350px;
+
+  }
+  
+.banner .container.login{
+    justify-content: center;
+
+  }
+  
+form input{
+    margin-top: 8px;
+    outline: 3px solid #3289cd;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+  
+  }
+  
+form  label{
+    margin-top: 8px;
+
+  }
+  
+form button{
+    margin-top: 25px;
+    background-color: #e6055a;
+    color: #ffff;
+    font-weight: bold;
+    padding: 10px 15px;
+    width: 120px;
+    align-self: center;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+    cursor:pointer;
+
+  }
