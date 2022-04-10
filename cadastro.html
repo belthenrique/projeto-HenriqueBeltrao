@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acquatec</title>
     <link rel="stylesheet" href="style.css">
+    <script src="jscript.js"></script>
 </head>
 <body>
     <div class="header">
@@ -14,8 +15,8 @@
         <ul class="navbar">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="#">Simulador</a></li>
-            <li class="agora" ><a href="login.html">Login</a></li>
-            <li><a href="cadastro.html">Cadastro</a></li>
+            <li ><a href="login.html">Login</a></li>
+            <li class="agora"><a href="cadastro.html">Cadastro</a></li>
         </ul>
     </div>
     </div>
@@ -24,16 +25,22 @@
 
 <div class="banner">
     <div class="container login">
-     <div class = "card">
-      <h2>Olá de volta!</h2>
+     <div class = "card cadastro">
+      <h2>Bem vindo(a)</h2>
       <form>
+        <label for = "input_nome">Nome</label>
+        <input type="text" id="input_nome" placeholder="Digite seu nome">
+
          <label for = "input_email">E-mail</label>
          <input type="text" id="input_email" placeholder="Digite seu e-mail">
   
-       <label for = "input_senha">Senha</label>
-       <input type="password" id="input_senha" placeholder="Digite sua Senha">
+        <label for = "input_senha">Senha</label>
+        <input type="password" id="input_senha" placeholder="Crie uma senha">
+
+        <label for = "input_confirma">Confirmar senha</label>
+        <input type="password" id="input_confirma" placeholder="Confirme sua senha">
   
-      <button type = "button"> Entrar </button>
+        <button onclick="senha_confirma()" type = "button"> Cadastrar </button>
   
       </form>
   

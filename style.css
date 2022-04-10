@@ -8,6 +8,7 @@ body{
 .header{
       background-color: black;
       color: #3289cd;
+      border-bottom: 3px solid #32B9CD;
 
   }
   
@@ -31,7 +32,7 @@ body{
 .navbar a{
      text-decoration: none;
      color: #e3b062;
-     border-bottom: 2px  #3289cd;
+
      font-size: 20px;
 
   }
@@ -83,6 +84,19 @@ body{
     justify-content: center;
   
   }
+
+.card.cadastro{
+  background-color: #e5e5e5;
+  color: #e6005a;
+  height: 500px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  
   
 .card .h2{
     margin: 0;
@@ -130,3 +144,4 @@ form button{
     cursor:pointer;
 
   }
+ 
